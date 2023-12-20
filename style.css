@@ -1,0 +1,43 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+    
+}
+
+
+.group-1{
+border: solid rgb(4, 104, 64);
+
+
+}
+  
+
+/* .main-title {
+    display: flex;
+    flex-direction: column;
+
+text-align:left;
+
+} */
+
+.nav-main2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    
+    
+
+    
+    margin: 0;
+    padding: 0;
+    border: solid firebrick;
+    list-style-type: none;
+    
+    
+    
+    
+  
+}
+.group-middle{
+    text-align: center;
+}
