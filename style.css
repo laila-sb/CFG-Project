@@ -1,43 +1,62 @@
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 3%;
     
     
 }
 
-
-.group-1{
-border: solid rgb(4, 104, 64);
-
-
-}
-  
-
-/* .main-title {
+.container{
+    
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 1;
+    border: solid green;
+}
 
-text-align:left;
+.main-logo{
+    
+    display: block;
+    text-align: left;
+    width: max-content;
+    border: solid rgb(51, 0, 128);
 
-} */
-
+    padding: 14px 16px;
+   
+}
 .nav-main2{
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-    
-    
 
+
+    /* float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; */
+
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: baseline;
     
-    margin: 0;
+   
+    
+    margin-top: 1;
     padding: 0;
-    border: solid firebrick;
+    border: solid firebrick; 
     list-style-type: none;
     
     
+#login-bttn {
+    padding: 10px 70px;
+    border-radius: 5px;
     
+
+}
     
   
 }
 .group-middle{
+    padding-top: 20%;
     text-align: center;
 }
