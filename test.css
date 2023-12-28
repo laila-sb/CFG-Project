@@ -1,0 +1,12 @@
+.container {
+    
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 6rem;
+}
+.test{
+    border: 1px solid black ; /* Adjust border styles as needed */
+      padding: 20px; /* Add padding for better visualization */
+}
