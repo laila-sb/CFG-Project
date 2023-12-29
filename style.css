@@ -11,6 +11,21 @@ body{
     font-weight: bold;
 }
 
+
+/*  >>>> trying to add tag line below navbar-brand<<<<<
+.navbar-brand ::after{
+    content:"XXXXXXXX ";
+    width:30px;
+    height:4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position:absolute;
+    bottom:-12px;
+    left:50%;
+    transform:translateX(-50%);
+} */
+
+
 .navbar-button{
     border-radius: 20px;
     border: none;
@@ -18,42 +33,43 @@ body{
     /* padding: 5px; */
     width: 120px;
     height: 40px;
-    background-color: rgba(210, 209, 209, 0.861);
+    background-color: rgb(40, 164, 67);
     color: white;
     
 }
 
+.navbar-button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
 .navbar-button:hover {
-    background-color: rgb(40, 164, 67);
-    color: white
+    background-color: rgb(211, 33, 152);
+    color: white;
 
 }
+
 .nav-main2{
-
-
-    /* float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none; */
-
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
-    
-    
-
     
     margin: 0;
     padding: 0;
     list-style-type: none;
     
-    
-    
-    
-  
 }
+
+.head2{
+      
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    font-style: bold;
+}
+    
 .group-middle{
     text-align: center;
     
@@ -73,13 +89,31 @@ body{
     /* padding: 5px; */
     width: 250px;
     height: 45px;
-    background-color: rgb(255, 255, 255);
-    text-color: white;
+    background-color: rgb(40, 164, 67);
+    color: white;
 }
 
+.acct-bttn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
 .acct-bttn:hover {
-    background-color: rgb(40, 164, 67);
+    background-color: rgb(211, 33, 152);
     color: white
+}
+
+/* testamony boxes  */
+.test{
+    border: 1px solid rgb(156, 156, 156) ; /* Adjust border styles as needed */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 20px; /* Add padding for better visualization */
+    border-radius: 9px;
+    padding-bottom: 7%;
+
 }
 
 .container {
@@ -93,14 +127,6 @@ body{
     padding-bottom: 3%;
     border-bottom: solid rgb(187, 186, 186);
 }
-.test{
-    border: 1px solid rgb(156, 156, 156) ; /* Adjust border styles as needed */
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
-    padding: 20px; /* Add padding for better visualization */
-    border-radius: 9px;
-    padding-bottom: 7%;
-
-}
 
 h4{
     display: flex;
@@ -109,6 +135,151 @@ h4{
     border-bottom:  1px solid rgb(187, 186, 186);
 }
 
-p{
-    font-size: 18px;
+#footer-line1{
+    font-size: 22px;
+    text-align: center;
 }
+
+#footer-line2{
+    font-size: 15px;
+    text-align: center; 
+}
+
+/* Styling for Register Page */
+
+
+
+
+
+.form-box{
+    width:90%;
+    max-width:600px;
+    position:relative;
+    top:50%;
+    left:20%;
+    
+    /* transform:translate(-50%,-50%); */
+    background-color: rgb(211, 209, 209);
+    border-radius: 200px;
+    padding:50px 60px 70px;
+    text-align: center;
+
+
+}
+
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+    position: relative;
+    color: black;
+    font-weight: bold;
+    
+
+}
+
+/* underline h1  */
+
+/* .form-box h1::after{
+    content:" ";
+    width:30px;
+    height:4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position:absolute;
+    bottom:-12px;
+    left:50%;
+    transform:translateX(-50%);
+} */
+    
+
+
+
+
+.input-field{
+    /* background: #eaeaea; */
+    margin:15px 0;
+    border-radius: 3px;
+    display:flex;
+    align-items: center;
+    max-height: 65px;
+    /* for dispearing input boxes */
+    transition: max-height 0.5s;
+    overflow:hidden;
+
+}
+
+.input{
+    width:100%;
+    background: transparent;
+    border: none;
+    outline:0;
+    padding: 18px 15px;
+
+}
+
+/* little icons */
+.input-field i{
+    margin-left:15px;
+    margin-right:7px;
+    color: rgb(6, 5, 5);
+    
+
+}
+
+
+.bttn-field{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    
+
+
+}
+
+.bttn-field button{
+    flex-basis: 48%;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    /* padding: 5px; */
+    width: 200px;
+    height: 40px;
+    background-color: rgb(40, 164, 67);
+    color: white;
+    
+}
+
+.input-group{
+    height:280px;
+
+    }
+
+.bttn-field button.disable{
+    background: #eaeaea;
+    color: #555;
+
+}
+
+
+/* FAQS PAGE */
+
+
+.faqs-form{
+   
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+ 
+}
+
+.h1-f{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+
+}
+/* 
+.h3-f{
+    text-align: left;
+} */
