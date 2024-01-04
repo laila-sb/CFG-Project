@@ -20,6 +20,7 @@ loginBttn.onclick =function(){
   regTitle.innerHTML = "Welcome back! ";
   signUpBttn.classList.add("disable");
   loginBttn.classList.remove("disable");
+  
 
 }
 
@@ -32,7 +33,7 @@ signUpBttn.onclick =function(){
 
 }
 
-
+signUpBttn.addEventListener("click", myFunction);
 
 // function Not working 
 
