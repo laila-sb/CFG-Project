@@ -75,7 +75,7 @@ body{
     
     padding-top: 20%;
     padding-bottom: 50%;
-    background-image: url("/photos/image1_0.jpeg");
+    background-image: url("./photos/image1_0.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
